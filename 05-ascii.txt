@@ -1,51 +1,51 @@
 Bin			Oct	Dec	Hex	缩写/字符					解释
-0000 0000	0	0	00	NUL(null)					空字符
-0000 0001	1	1	01	SOH(start of headline)		标题开始
-0000 0010	2	2	02	STX (start of text)			正文开始
-0000 0011	3	3	03	ETX (end of text)			正文结束
-0000 0100	4	4	04	EOT (end of transmission)	传输结束
-0000 0101	5	5	05	ENQ (enquiry)				请求
-0000 0110	6	6	06	ACK (acknowledge)			收到通知
-0000 0111	7	7	07	BEL (bell)					响铃
-0000 1000	10	8	08	BS (backspace)				退格
-0000 1001	11	9	09	HT (horizontal tab)			水平制表符
-0000 1010	12	10	0A	LF (NL line feed, new line)	换行键
-0000 1011	13	11	0B	VT (vertical tab)			垂直制表符
-0000 1100	14	12	0C	FF (NP form feed, new page)	换页键
-0000 1101	15	13	0D	CR (carriage return)		回车键
-0000 1110	16	14	0E	SO (shift out)				不用切换
-0000 1111	17	15	0F	SI (shift in)				启用切换
-0001 0000	20	16	10	DLE (data link escape)		数据链路转义
-0001 0001	21	17	11	DC1 (device control 1)		设备控制1
-0001 0010	22	18	12	DC2 (device control 2)		设备控制2
-0001 0011	23	19	13	DC3 (device control 3)		设备控制3
-0001 0100	24	20	14	DC4 (device control 4)		设备控制4
-0001 0101	25	21	15	NAK (negative acknowledge)	拒绝接收
-0001 0110	26	22	16	SYN (synchronous idle)		同步空闲
-0001 0111	27	23	17	ETB (end of trans. block)	结束传输块
-0001 1000	30	24	18	CAN (cancel)				取消
-0001 1001	31	25	19	EM (end of medium)			媒介结束
-0001 1010	32	26	1A	SUB (substitute)			代替
-0001 1011	33	27	1B	ESC (escape)				换码(溢出)
-0001 1100	34	28	1C	FS (file separator)			文件分隔符
-0001 1101	35	29	1D	GS (group separator)		分组符
-0001 1110	36	30	1E	RS (record separator)		记录分隔符
-0001 1111	37	31	1F	US (unit separator)			单元分隔符
-0010 0000	40	32	20	(space)						空格
-0010 0001	41	33	21	!							叹号
-0010 0010	42	34	22	"							双引号
-0010 0011	43	35	23	#							井号
-0010 0100	44	36	24	$							美元符
-0010 0101	45	37	25	%							百分号
-0010 0110	46	38	26	&							和号
-0010 0111	47	39	27	'							闭单引号
-0010 1000	50	40	28	(							开括号
-0010 1001	51	41	29	)							闭括号
-0010 1010	52	42	2A	*							星号
-0010 1011	53	43	2B	+							加号
-0010 1100	54	44	2C	,							逗号
-0010 1101	55	45	2D	-							减号/破折号
-0010 1110	56	46	2E	.							句号
+00000000	0	0	00	NUL(null)					空字符
+00000001	1	1	01	SOH(startofheadline)		标题开始
+00000010	2	2	02	STX(startoftext)			正文开始
+00000011	3	3	03	ETX(endoftext)			正文结束
+00000100	4	4	04	EOT(endoftransmission)	传输结束
+00000101	5	5	05	ENQ(enquiry)				请求
+00000110	6	6	06	ACK(acknowledge)			收到通知
+00000111	7	7	07	BEL(bell)					响铃
+00001000	10	8	08	BS(backspace)				退格
+00001001	11	9	09	HT(horizontaltab)			水平制表符
+00001010	12	10	0A	LF(NLlinefeed,newline)	换行键
+00001011	13	11	0B	VT(verticaltab)			垂直制表符
+00001100	14	12	0C	FF(NPformfeed,newpage)	换页键
+00001101	15	13	0D	CR(carriagereturn)		回车键
+00001110	16	14	0E	SO(shiftout)				不用切换
+00001111	17	15	0F	SI(shiftin)				启用切换
+00010000	20	16	10	DLE(datalinkescape)		数据链路转义
+00010001	21	17	11	DC1(devicecontrol1)		设备控制1
+00010010	22	18	12	DC2(devicecontrol2)		设备控制2
+00010011	23	19	13	DC3(devicecontrol3)		设备控制3
+00010100	24	20	14	DC4(devicecontrol4)		设备控制4
+00010101	25	21	15	NAK(negativeacknowledge)	拒绝接收
+00010110	26	22	16	SYN(synchronousidle)		同步空闲
+00010111	27	23	17	ETB(endoftrans.block)	结束传输块
+00011000	30	24	18	CAN(cancel)				取消
+00011001	31	25	19	EM(endofmedium)			媒介结束
+00011010	32	26	1A	SUB(substitute)			代替
+00011011	33	27	1B	ESC(escape)				换码(溢出)
+00011100	34	28	1C	FS(fileseparator)			文件分隔符
+00011101	35	29	1D	GS(groupseparator)		分组符
+00011110	36	30	1E	RS(recordseparator)		记录分隔符
+00011111	37	31	1F	US(unitseparator)			单元分隔符
+00100000	40	32	20	(space)						空格
+00100001	41	33	21	!							叹号
+00100010	42	34	22	"							双引号
+00100011	43	35	23	#							井号
+00100100	44	36	24	$							美元符
+00100101	45	37	25	%							百分号
+00100110	46	38	26	&							和号
+00100111	47	39	27	'							闭单引号
+00101000	50	40	28	(							开括号
+00101001	51	41	29	)							闭括号
+00101010	52	42	2A	*							星号
+00101011	53	43	2B	+							加号
+00101100	54	44	2C	,							逗号
+00101101	55	45	2D	-							减号/破折号
+00101110	56	46	2E	.							句号
 00101111	57	47	2F	/							斜杠
 00110000	60	48	30	0							数字0
 00110001	61	49	31	1							数字1
@@ -126,4 +126,4 @@ Bin			Oct	Dec	Hex	缩写/字符					解释
 01111100	174	124	7C	|	垂线
 01111101	175	125	7D	}	闭花括号
 01111110	176	126	7E	~	波浪号
-01111111	177	127	7F	DEL (delete)	删除
+01111111	177	127	7F	DEL(delete)	删除
