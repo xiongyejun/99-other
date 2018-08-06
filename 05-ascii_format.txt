@@ -1,3 +1,6 @@
+﻿ASCII全称是：American Standard Code for Information Interchange （美国信息交换标准代码）
+ANSI（美国国家标准学会）
+
      Bin  Oct  Dec  Hex  缩写/字符             解释
 00000000    0    0   00  NUL(null)                 空字符
 00000001    1    1   01  SOH(startofheadline)      标题开始
